@@ -1,5 +1,5 @@
 
 Testing
 
-![29%20AM|690x156](upload://hBmIsEQuQQuKPdW9Y971GdmkeCg.png)
+![alt text](pictures/1.png "Description goes here")
 

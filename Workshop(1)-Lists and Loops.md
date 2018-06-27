@@ -1,23 +1,46 @@
 
- # :construction: ورشة عمل (1) القوائم والتكرار Lists and Loops 
+<h2>
+<p dir='rtl' align='right'>
+:construction: ورشة عمل (1) القوائم والتكرار Lists and Loops 
+</p>
+</h2>
 
-# :computer_mouse: شرح برنامج الورشة: 
+<h2>
+<p dir='rtl' align='right'>
+ :computer_mouse: شرح برنامج الورشة: 
+</p>
+</h2>
 
  <p dir='rtl' align='right'>
 كما تعلم أن مطور الويب الشامل يكون مسؤول عن كافة أجزاء البرنامج، في هذه الورشة سنقوم بالعمل على الجزء الوسطي Backend Coding الذي يختص بقوانين البرنامج وكيف يعمل، لاحقاً في ورشات أخرى سنتطرق إلى آلية العرض Front-End Coding وآلية تخزين المعلومات .Database 
 </p>
 
-# :open_file_folder: تجهيز فولدر المشروع:
+<h2>
+<p dir='rtl' align='right'>
+:open_file_folder: تجهيز فولدر المشروع:
+</p>
+</h2>
+
  <p dir='rtl' align='right'>
 علينا بداية تخصيص فولدر معين لهذا المشروع، قم بتخصيص فولدر على جهازك لهذا المشروع
 </p>
 
-# :page_with_curl: تكوين ملف البرنامج:
+<h2>
+<p dir='rtl' align='right'>
+:page_with_curl: تكوين ملف البرنامج:
+</p>
+</h2>
+ 
  <p dir='rtl' align='right'>
 في هذه المرحلة البرنامج سيكون في ملف واحد للحجوزات لنسميه reservation.py
 </p>
 
-# :wrench:البدء بالعمل على البرنامج:
+<h2>
+<p dir='rtl' align='right'>
+:wrench:البدء بالعمل على البرنامج:
+</p>
+</h2>
+
  <p dir='rtl' align='right'>
 في البداية ليس لدينا قاعدة بيانات وسنقوم بتخزين كل شيء داخل البرنامج كقيم مبدئية، من خلال القوائم List أو أي متغيرات أخرى تعلمناها لبناء قاعدة بيانات مصغرة داخل البرنامج
 </p>
@@ -42,7 +65,11 @@
 <br> • طباعة رفض الحجز إذا كان الفندق لا يملك شواغر
 </p>
 
-### يجب أن تتوافر المعلومات التالية عن كل فندق:
+<h3>
+<p dir='rtl' align='right'>
+ يجب أن تتوافر المعلومات التالية عن كل فندق:
+</p>
+</h3>
 
 <p dir='rtl' align='right'>
 <br> • اسمه hotel_name 
@@ -55,39 +82,76 @@
 في هذه المرحلة نريد أن نطبق ما تعلمناه في الجزء الثاني من المادة أي حتى درس ١٣ تقريبا لا يهم كثيرا تشكيل قاعدة البيانات داخل البرنامج وفاعليتها أو حتى طريقة الطباعة ما يهمنا هو أن يؤدي البرنامج المطلوب منه.
 </p>
 
-# تطبيق الورشة
+<h2>
+<p dir='rtl' align='right'>
+ تطبيق الورشة
+</p>
+</h2>
+
 <p dir='rtl' align='right'>
 بما أنه ليس لدينا قاعدة بيانات فكل ما نستطيع فعله الأن هو استخدام القوائم لحفظ المعلومات
 </p>
 
-### قائمة الفنادق  hotels list:
+<h3>
+<p dir='rtl' align='right'>
+ قائمة الفنادق  hotels list:
+</p>
+</h3>
+
 <p dir='rtl' align='right'>
 يلزمنا قائمة للفنادق تحفط المعلومات لكل فندق والتي سنجري عليها كل العمليات من كتابة وقراءة، قد تحتوي هذه القائمة الرئيسية على قوائم فرعية تمثل كل فندق على حدة، تحمل المعلومات عن الفندق المذكورة أعلاه.
 </p>
 
-### قائمة الزبائن customers list :
+<h3>
+<p dir='rtl' align='right'>
+ قائمة الزبائن customers list :\
+</p>
+</h3>
+
 <p dir='rtl' align='right'>
 يلزمنا قائمة للزبائن تحمل معلومات كل زبون، الأن نريد فقط اسم الزبون 
 </p>
 
-### قائمة الحجوزات  reservation list:
+<h3>
+<p dir='rtl' align='right'>
+قائمة الحجوزات  reservation list:
+</p>
+</h3>
+
 <p dir='rtl' align='right'>
 وهنا نقوم بكتابة كل الحجوزات للفنادق في قائمة منفصلة، هنا نحتاج فقط لرقم الفندق ورقم الزبون وتفاصيل الحجز من تاريخ إلى تاريخ
 </p>
 
-## العمليات المطلوبة:
+<h2>
+<p dir='rtl' align='right'>
+العمليات المطلوبة:
+</p>
+</h2>
 
-### إضافة فندق جديد:
+<h3>
+<p dir='rtl' align='right'>
+إضافة فندق جديد:
+</p>
+</h3>
 
     def add_hotel(number,hotel_name, city,total_rooms,empty_rooms):
         # add number,hotel_name, city,total_rooms,and empty_rooms to hotels list
 
-### إضافة زبون جديد:
+<h3>
+<p dir='rtl' align='right'>
+ إضافة زبون جديد:
+</p>
+</h3>
 
     def add_customer(customer_name):
         # add customer_name to customers list
 
-### إضافة حجز جديد:
+
+<h3>
+<p dir='rtl' align='right'>
+إضافة حجز جديد:
+</p>
+</h3>
 
 
     def reserve_room (hotel_name, customer_name)
@@ -106,17 +170,27 @@
         # else
        #      print “sorry no rooms available”
 
-### عرض الفنادق في مدينة معينة:
+<h3>
+<p dir='rtl' align='right'>
+ عرض الفنادق في مدينة معينة:
+</p>
+</h3>
 
     def list_hotels_in_city(city_name):
         # search for city in hotels and print hotel name, total number of rooms if found
 
-### عرض الحجوزات لفندق معين:
+<h3>
+<p dir='rtl' align='right'>
+ عرض الحجوزات لفندق معين:
+</p>
+</h3>
 
     def list_resevrations_for_hotel(hotel_name)
         # search for hotel_name in reservation list and print customer name
-        
+
+<h3>
 <p dir='rtl' align='right'>
-### أتمنى التوفيق للجميع من كل :heart: :blush:
+ أتمنى التوفيق للجميع من كل :heart: :blush:
 </p>
+</h3>
 

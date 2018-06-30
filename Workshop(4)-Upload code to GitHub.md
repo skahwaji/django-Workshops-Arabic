@@ -101,7 +101,8 @@
 يجب أن نحصل أولا على حساب على جت هب، لإنشاء حساب لك على GitHub إذا لم تكن أنشأت واحدا من قبل تابع الفيديو التالي:
 </p>
 
-https://youtu.be/pJ6RGrdb_uw
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pJ6RGrdb_uw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 <p dir='rtl' align='right'>

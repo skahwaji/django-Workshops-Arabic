@@ -13,7 +13,7 @@
 
 [![YT](http://img.youtube.com/vi/4LCzQuN457o/0.jpg)](http://www.youtube.com/watch?v=4LCzQuN457o)
 
-## تكوين مشروع django من الصفر ( فيديو يوضح مراجعة):
+## تكوين مشروع django من الصفر ( مراجعة):
 
 [![YT](http://img.youtube.com/vi/kFLSUaq_TGk/0.jpg)](http://www.youtube.com/watch?v=kFLSUaq_TGk)
 

@@ -7,10 +7,10 @@
 ---
 قمنا بالورشات السابقة التالية لحد الأن:
 
-* [ورشة عمل (1) : بناء نظام بسيط لحجز الفنادق](https://github.com/shadimac/django-Workshops-Arabic/blob/master/Workshop(1)-Lists%20and%20Loops.md)
-* [ورشة عمل (2) :إضافة إمكانية تأكيد الحجز عن طريق الرسائل](https://github.com/shadimac/django-Workshops-Arabic/blob/master/Workshop(2)-Send%20SMS.md)
-* [ورشة عمل (3) توزيع الكود على Classes وتطبيق OOP](https://github.com/shadimac/django-Workshops-Arabic/blob/master/Workshop(3)-Classes%20and%20OOP.md)
-* [ورشة عمل (4) البدء بمشاركة الكود على GitHub](https://github.com/shadimac/django-Workshops-Arabic/blob/master/Workshop(4)-Upload%20code%20to%20GitHub.md)
+* [ورشة عمل (1) : بناء نظام بسيط لحجز الفنادق](https://github.com/shadimac/django-Workshops-Arabic/blob/master/Workshop(01)-Lists%20and%20Loops.md)
+* [ورشة عمل (2) :إضافة إمكانية تأكيد الحجز عن طريق الرسائل](https://github.com/shadimac/django-Workshops-Arabic/blob/master/Workshop(02)-Send%20SMS.md)
+* [ورشة عمل (3) توزيع الكود على Classes وتطبيق OOP](https://github.com/shadimac/django-Workshops-Arabic/blob/master/Workshop(03)-Classes%20and%20OOP.md)
+* [ورشة عمل (4) البدء بمشاركة الكود على GitHub](https://github.com/shadimac/django-Workshops-Arabic/blob/master/Workshop(04)-Upload%20code%20to%20GitHub.md)
 
 :computer_mouse:  شرح برنامج الورشة:
 

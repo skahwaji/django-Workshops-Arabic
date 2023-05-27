@@ -34,7 +34,7 @@
 
 ال django هو أحد هذه ال frameworks التي تسهل عملية بناء مواقع الويب عن طريق استقبال كافة أوامر الويب HTTP Request وتسهل التعامل مع قواعد البيانات وإعادة عرض المعلومات المطلوبة من جديد على صفحات ال HTML وكل ذلك من خلال تطبيق كافة أوامر لغة البايثون التي تعلمتها.
 
-![webdev-chart2](https://github.com/abo3adel/django-Workshops-Arabic/blob/master/pictures/19.png)
+![webdev-chart2](https://github.com/skahwaji/django-Workshops-Arabic/blob/master/pictures/19.png)
 
 وال django كبقية البرامج لديه نسخ مختلفة منها لبايثون ٢ ومنها لبايثون ٣، ومن المحتمل أن نعمل على نسخ مختلفة ل django لبرامج مختلفة، فهنا يلزمنا أن نستعمل البيئة الافتراضية عند تثبيت والعمل على django حتى لا يحصل تداخل بين النسخ وأخطاء في نتائج البرامج.
 
@@ -56,7 +56,7 @@ pip install virtualenv
 
 <div dir='rtl' align='right'>
 
-![installing-virtualenv ](https://github.com/abo3adel/django-Workshops-Arabic/blob/master/pictures/20.png)
+![installing-virtualenv ](https://github.com/skahwaji/django-Workshops-Arabic/blob/master/pictures/20.png)
 
 إذا كانت ال virtualenv مثبتة لديك مسبقا فسيقوم ال pip بتحديثها غير ذلك سيقوم بتثبيتها من البداية.
 

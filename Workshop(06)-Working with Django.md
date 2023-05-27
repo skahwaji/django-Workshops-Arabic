@@ -22,7 +22,7 @@
 
 إذا ما العمل بهذه الحالة، يوجد الكثير من البرامج المثبتة على نظام التشغيل خاصتنا قد تتعارض مع نسخ أحدث نريد تجربتها من خلال برامج بايثون؟ في هذه الحالة نقوم فقط بعمل بيئة منفصلة عن بيئة نظام التشغيل تسمى Virtual Environment في داخل هذه البيئة يمكننا أن نثبت نسخ البرامج التي تحلو لنا من غير أن نؤثر على النسخ السابقة لنفس البرنامج على الجهاز.
 
-![enviroment-chart2](https://github.com/abo3adel/django-Workshops-Arabic/blob/master/pictures/18.png)
+![enviroment-chart2](https://github.com/skahwaji/django-Workshops-Arabic/blob/master/pictures/18.png)
 
 سنرى في تطبيق الورشة في الأسفل كيف ننشئ هذه البيئة الافتراضية VE.
 ***
@@ -111,7 +111,7 @@ deactivate
 ---
 قم بإنشاء فولدر وبيئة افتراضيه من خلال الأوامر التالية مع تفعيلها:
 
-![v_env-activation](https://github.com/abo3adel/django-Workshops-Arabic/blob/master/pictures/21.png)
+![v_env-activation](https://github.com/skahwaji/django-Workshops-Arabic/blob/master/pictures/21.png)
 
 لاحظ أن البيئة الافتراضية تم تفعيلها وأصبحت تسبق اسم الفولدر (new_ve)
 ***
@@ -127,11 +127,11 @@ pip install django==1.11
 
 <div dir='rtl' align='right'>
 
-![installing-django](https://github.com/abo3adel/django-Workshops-Arabic/blob/master/pictures/22.png)
+![installing-django](https://github.com/skahwaji/django-Workshops-Arabic/blob/master/pictures/22.png)
 
 بهذا يصبح لدينا django framework من ضمن ال VE التي نعمل من خلالها، لتتأكد من ذلك قم بتنفيذ الأمر التالي:
 
-![listing-files](https://github.com/abo3adel/django-Workshops-Arabic/blob/master/pictures/23.png)
+![listing-files](https://github.com/skahwaji/django-Workshops-Arabic/blob/master/pictures/23.png)
 
 هل تلاحظ ملف django-admin الموجود في bin فولدر أو في Scripts فولدر علي Windows؟ هذا هو الملف الذي سنستخدمه الأن لإنشاء أول مشروع ل django، تذكر أننا فقط قمنا بتثبيت django ويلزمنا الأن أن ننشئ مشروع نعمل من خلاله.
 
@@ -149,7 +149,7 @@ django-admin.py startproject my_project
 
 <div dir='rtl' align='right'>
 
-![listing-new-files](https://github.com/abo3adel/django-Workshops-Arabic/blob/master/pictures/24.png)
+![listing-new-files](https://github.com/skahwaji/django-Workshops-Arabic/blob/master/pictures/24.png)
 
 هنا لربما يبدأ البعض بالتخبط من خلال مجموعة الفولدرات التي تم إنشائها، لذلك سأعيد ترتيب الفولدرات:
 </div>
@@ -173,13 +173,13 @@ python manage.py runserver
 
 <div dir='rtl' align='right'>
 
-![running-django](https://github.com/abo3adel/django-Workshops-Arabic/blob/master/pictures/25.png)
+![running-django](https://github.com/skahwaji/django-Workshops-Arabic/blob/master/pictures/25.png)
 
 نلاحظ أن بايثون الأن قام بتشغيل ملف manag.py الخاص ب django مع أمر runserver الذي بدوره سيقوم بتحضير سيرفر محلي local server خاص بمشروعنا مع العنوان المذكور [http://127.0.0.1:8000/](http://127.0.0.1:8000/) وهذا هو عنوان جهازك المحلي 127.0.0.1 مع بورت port 8000 الخاص بمشروعنا. تجاهل الرسالة بالأحمر “You have 13 unapplied…” سنأتي لهذا الأمر لاحقاً.
 
 لنتأكد من أن django يعمل علينا الأن أن نفتح أي متصفح، chrome مثلا ونطبع عنوان برنامجنا هناك:
 
-![testing-django](https://github.com/abo3adel/django-Workshops-Arabic/blob/master/pictures/26.png)
+![testing-django](https://github.com/skahwaji/django-Workshops-Arabic/blob/master/pictures/26.png)
 
 ***
 رائع جدا ها نحن قمنا بتشغيل أول برنامج django :smile: :tada::confetti_ball::fireworks::sparkler:
